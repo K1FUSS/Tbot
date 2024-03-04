@@ -28,7 +28,7 @@ async def cmd_start(message: types.Message):
         resize_keyboard=True,
         input_field_placeholder="Выберите способ подачи"
     )
-    await message.answer("Какой вопрос Вас интересует?", reply_markup=keyboard)
+    await message.answer("Выберите интересующее", reply_markup=keyboard)
 
 
 
